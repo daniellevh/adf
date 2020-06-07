@@ -1,0 +1,22 @@
+{
+	"name": "sqlodbc2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Driver={ODBC Driver 17 for SQL Server};Server=testgard-sql1.database.windows.net;Database=testgard1;ColumnEncryption=Enabled;KeyStoreAuthentication=KeyVaultClientSecret;KeyStorePrincipalId=63afdd78-6cfa-4a09-ba48-a4c2bc651dfe;KeyStoreSecret=63afdd78-6cfa-4a09-ba48-a4c2bc651dfe;Authentication=ActiveDirectoryPassword",
+		"annotations": [],
+		"type": "Odbc",
+		"typeProperties": {
+			"connectionString": {
+				"type": "SecureString",
+				"value": "**********"
+			},
+			"authenticationType": "Basic",
+			"userName": "sqlodbc@steinhellestveitgmail.onmicrosoft.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmNTZkMmNlNy0yMTJlLTQ1ZDAtOTY4Ny05YmYzOGE4M2E2NGMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
