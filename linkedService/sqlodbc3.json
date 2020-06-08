@@ -2,7 +2,7 @@
 	"name": "sqlodbc3",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
-		"description": "Driver={ODBC Driver 17 for SQL Server};Server=testgard-sql1.database.windows.net;Database=testgard1;ColumnEncryption=Enabled;KeyStoreAuthentication=KeyVaultClientSecret;KeyStorePrincipalId=sqlodbc@steinhellestveitgmail.onmicrosoft.com;KeyStoreSecret=Utameki123;Authentication=ActiveDirectoryPassword",
+		"description": "Driver={ODBC Driver 17 for SQL Server};Server=testgard-sql1.database.windows.net;Database=testgard1;ColumnEncryption=Enabled;KeyStoreAuthentication=KeyVaultPassword;KeyStorePrincipalId=sqlodbc@steinhellestveitgmail.onmicrosoft.com;KeyStoreSecret=Utameki123;Authentication=ActiveDirectoryPassword",
 		"annotations": [],
 		"type": "Odbc",
 		"typeProperties": {
@@ -12,7 +12,7 @@
 			},
 			"authenticationType": "Basic",
 			"userName": "sqlodbc@steinhellestveitgmail.onmicrosoft.com",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzMjZlMDlmYy01Y2YyLTQ3ZTgtODA1Yi1iN2ZiZWFiOTE3MGEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4MWE3YjQ2Ny03OTY5LTRkYzYtOWRkZi00ZmNjODEzOGE3NjEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntime1",
