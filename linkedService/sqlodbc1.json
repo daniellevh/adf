@@ -12,7 +12,7 @@
 			},
 			"authenticationType": "Basic",
 			"userName": "sqllocal",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3ZDE2ZDhiMi01YjY1LTRhMDYtYmIyNS03MTNiNTk0NzdkYzMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxMmQ5ZDY4NS1iM2NlLTRlM2MtOTVjYS1kNzYyYWMzM2U0NzkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntime1",
