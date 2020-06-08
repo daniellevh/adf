@@ -2,7 +2,7 @@
 	"name": "sqlodbcmsi",
 	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
-		"description": "Driver={ODBC Driver 17 for SQL Server};Server=testgard-sql1.database.windows.net;Database=testgard1;ColumnEncryption=Enabled;KeyStoreAuthentication=KeyVaultClientSecret;KeyStorePrincipalId=63afdd78-6cfa-4a09-ba48-a4c2bc651dfe;KeyStoreSecret=63afdd78-6cfa-4a09-ba48-a4c2bc651dfe;Authentication=ActiveDirectoryMSI",
+		"description": "Driver={ODBC Driver 17 for SQL Server};Server=testgard-sql1.database.windows.net;Database=testgard1;ColumnEncryption=Enabled;KeyStoreAuthentication=KeyVaultManagedIdentity;KeyStorePrincipalId=63afdd78-6cfa-4a09-ba48-a4c2bc651dfe;KeyStoreSecret=63afdd78-6cfa-4a09-ba48-a4c2bc651dfe;Authentication=ActiveDirectoryMSI",
 		"annotations": [],
 		"type": "Odbc",
 		"typeProperties": {
