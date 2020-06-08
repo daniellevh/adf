@@ -1,0 +1,10 @@
+{
+	"name": "AzureKeyVaultLS1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://trial-testgard-kv1.vault.azure.net/"
+		}
+	}
+}
